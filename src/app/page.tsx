@@ -1,22 +1,7 @@
 'use client';
-import { ArrowDownCircleIcon, HomeIcon } from '@heroicons/react/16/solid';
 import { AnimatedText } from './components/FramerText';
-import WavingHand from '../../public/images/waving_hand.png';
-import NiceView from '@/../public/images/nice_view.jpg';
-
-import {
-    Carousel,
-    CarouselContent,
-    CarouselItem,
-    CarouselNext,
-    CarouselPrevious
-} from '@/components/ui/carousel';
-import { Card, CardContent } from '@/components/ui/card';
-import UIHeroCard from './components/UIHeroCard';
 import { FaDiscord, FaLinkedin, FaYoutubeSquare } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
-import { LiaLinkedin } from 'react-icons/lia';
-
 export default function Home() {
     return (
         <>
