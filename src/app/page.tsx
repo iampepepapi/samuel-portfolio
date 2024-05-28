@@ -124,7 +124,7 @@ export default function Home() {
                                     <span className=" drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
                                         <AnimatedText
                                             el="h2"
-                                            text={['Samuel Gonzalez !!!']}
+                                            text={['Samuel Gonzalez']}
                                             className=" text-2xl"
                                             // repeatDelay={10000}
                                         />
