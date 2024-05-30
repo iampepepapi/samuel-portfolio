@@ -158,9 +158,7 @@ export default function Home() {
                 </section>
                 {/* SLIDE 2 */}
                 <section className="  bg-white">
-                    <div className="text-black">
-                        <ServerStatus />
-                    </div>
+                    <div className="text-black">{/* <ServerStatus /> */}</div>
                 </section>
             </div>
         </>
