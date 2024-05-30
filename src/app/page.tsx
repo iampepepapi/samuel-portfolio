@@ -1,7 +1,9 @@
 'use client';
+import Script from 'next/script';
 import { AnimatedText } from './components/FramerText';
 import { FaDiscord, FaLinkedin, FaYoutubeSquare } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
+import ServerStatus from '@/components/scripts/ServerStatus';
 export default function Home() {
     return (
         <>
@@ -156,7 +158,9 @@ export default function Home() {
                 </section>
                 {/* SLIDE 2 */}
                 <section className="  bg-white">
-                    <div></div>
+                    <div className="text-black">
+                        <ServerStatus />
+                    </div>
                 </section>
             </div>
         </>

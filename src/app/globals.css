@@ -17,6 +17,7 @@
         --color3: 200, 173, 85;
         --color4: 208, 252, 179;
         --color5: 155, 197, 157;
+        --coloreiktec: #33cccc;
         --color-interactive: 140, 100, 255;
         --circle-size: 80%;
         --blending: hard-light;
@@ -209,8 +210,8 @@
     overflow: hidden;
     background: linear-gradient(
         40deg,
-        theme(colors.primary.DEFAULT),
-        theme(colors.primary.foreground)
+        theme(colors.black),
+        theme(colors.black)
     );
 
     top: 0;
