@@ -160,6 +160,7 @@ export default function Home() {
                 <section className="  bg-white">
                     <div className="text-black">
                         <ServerStatus />
+                        HELLO WORLD
                     </div>
                 </section>
             </div>
