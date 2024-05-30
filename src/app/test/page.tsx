@@ -10,7 +10,7 @@ const Test = () => {
                     r="40"
                     stroke="black"
                     strokeWidth="3"
-                    fill="red"
+                    fill="blue"
                 />
             </svg>
         </div>
